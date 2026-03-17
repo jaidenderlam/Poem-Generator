@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>A poem Generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+ <h1>A Poem Generator</h1>
+  <div class="poem">
+    
+      <table>
+        <th>
+          <form>
+            <tr>
+          <td>
+            <label for="noun">Noun:</label>
+             <input type="text" placeholder="Enter a noun" id="noun"</>
+          </td>
+          </tr> 
+          <tr>
+            <td>
+              <label for="adjective">Adjective:</label>
+               <input type="text" placeholder="Enter an adjective" id="adjective"</>
+            </td>
+              </tr>
+            <tr>
+            <td>
+              <label for="Verbs">Verb:</label>
+               <input type="text" placeholder="Enter a verb" id="verb"</>
+            </td>
+            </tr>
+              <tr>
+            <td>
+              <label for="adverb">Adverb:</label>
+               <input type="text" placeholder="Enter an adverb" id="adverb"</>
+            </td>
+              </tr>
+            </form>
+        </th>
+      </table>  
+    <button onclick="generatePoem()">Generate Poem</button>"
+  </div>
+  <div class="result">
+    
+  <span>Here's the results:</span>
+    <p id="result"></p>
+    </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
