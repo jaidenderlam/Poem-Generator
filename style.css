@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #2c3e50, #4ca1af) /* Reminisce of a beach foe poetry terms*/
+}
+/* Import an external font from the website "googlefont"*/
+@font-face{
+  font-family: UnifrakturMaguntia;
+  src:url(https://fonts.google.com/specimen/UnifrakturMaguntia?categoryFilters=Feeling:%2FExpressive%2FArtistic);
+}
+/*Heading*/
+h1 {
+  display: float;
+  margin: 0 auto;
+   width: 350px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align:center;
+  font-family:UnifrakturMaguntia, cursive;
+  font-size:35px;
+  font-style:italic;
+  color: black;
+}
+.poem{
+  display: flex;
+  justify-content: center;
+  gap:10px
+}
+table{
+  display: float;
+  margin:0;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+span{
+  font-family: UnifrakturMaguntia,cursive;
+  font-size: 30px;
+}
+.result{
+  display: float;
+  margin:20px auto;
+  background: rgba(246, 231, 193, 0.7);
+  backdrop-filter: blur(12px);
+  padding: 14px 28px;
+  border-radius: 12px;
+  white-space:pre-line;
+  text-align: center;
+}
+button{
+  display: float;
+  width: 90px;
+  height:50px;
+  font-size: 15px;
+  border-radius: 20px;
+  margin:0;
+  margin-top:100px;
+}
